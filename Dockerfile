@@ -1,4 +1,4 @@
-FROM amazonlinux:2023.9.20251208.0
+FROM amazonlinux:2023.12.20260706.1
 
 RUN dnf -y update && \
     dnf clean all
